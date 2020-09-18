@@ -1,0 +1,304 @@
+<html>
+  <head>
+    <title>Covid19 Web Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="homeCSS.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <div class="wrapper">
+      <div class="sidebar">
+        <h2>
+          <img
+            src="https://covid19.tubitak.gov.tr/themes/custom/covid19/logo.svg"
+            alt=""
+          />
+        </h2>
+
+        <ul>
+          <li>
+            <a href="homePage.html"><i class="fas fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="turkiyedeDurum.html"><i class="fas fa-map-pin"></i>Türkiye'de Durum</a>
+          </li>
+          <li>
+            <a href="dunyadaDurum.html"><i class="fas fa-globe"></i>Dünya'da Durum</a>
+          </li>
+          <li>
+            <a href="duyurular.html"><i class="fas fa-bullhorn"></i>Duyurular</a>
+          </li>
+          
+          <li>
+            <a href="korunmaVeTedavi.html"
+              ><i class="fas fa-user-shield"></i>Korunma ve Tedavi Yöntemleri</a
+            >
+          </li>
+          <li>
+            <a href="iletisim.html"><i class="fas fa-phone"></i>İletişim</a>
+          </li>
+        </ul>
+        <div class="social_media">
+          <a href="https://www.facebook.com/saglikbakanligi/"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://twitter.com/saglikbakanligi"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/saglikbakanligi/?hl=tr"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+      <div class="main_content">
+        <div class="header">Merhabalar, Sağlıklı Günler Dileriz...</div>
+        <div class="info"></div>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <a
+              href="dunyadaDurum.html"
+            >
+              <img
+                src="https://i4.hurimg.com/i/hurriyet/75/0x0/5e79b1f1c03c0e29e83ace20.jpg"
+                alt="Los Angeles"
+                style="width: 100%;"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1>SON DAKİKA</h1>
+                <p style="font-size: 25px;">
+                  Çin Hubey bölgesinde COVID-19 karantinasını sona erdiriyor
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="item">
+            <a
+              href="dunyadaDurum.html"
+            >
+              <img
+                src="https://iasbh.tmgrup.com.tr/f03394/0/0/0/0/0/0?u=https://isbh.tmgrup.com.tr/sb/album/2020/03/07/dunyayi-sarsan-son-dakika-haberi-koronavirus-giderek-yayiliyor-covid-19un-goruldugu-ulke-sayisi-artti-1583557009297.jpg&l=1"
+                alt="Chicago"
+                style="width: 100%;"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1></h1>
+                <p></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="item">
+            <a
+              href="turkiyedeDurum.html"
+            >
+              <img
+                src="https://i2.cnnturk.com/i/cnnturk/75/650x325/5e90317ad265a20f1cb59b01.jpg"
+                alt="New york"
+                style="width: 100%;"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h1 style="color: black;">
+                  Türkiye'de immün plazma tedavisi uygulanan Covid-19
+                  hastasından iyi haber
+                </h1>
+                <p></p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <div id="hakkinda">
+      <div id="hakkindaa">
+        <a
+        href="veriMakale.html"
+      >
+        <h2
+          style="
+            font-weight: bold;
+            color: red;
+            position: absolute;
+            left: 12%;
+            top: 60%;
+          "
+        >
+          Covid-19 Hakkında
+        </h2>
+        <p style="color: red; position: absolute; left: 12%; top: 80%;">
+          Makaleler,Tezler,Veriler...
+        </p>
+      </div>
+    </a>
+    </div>
+
+    <div id="alo184">
+        <div id="alo184alt">
+            <a
+            href="alo184.html"
+          >
+          <h2 style="color: #263238; font-weight: bold;">ALO 184</h2>
+          <p style="color: #263238; position: absolute;  top: 60%;">Korona Virus(Covid-19) Danışma Hattı</p>
+        </div>
+    </a>
+      </div>
+
+      <div id="test">
+        <div id="testt">
+            <a
+            href="coronaTesti.html"
+          >
+          <h2 style="color: #263238; font-weight: bold;">Online Corona Testi</h2>
+          <p style="color: #263238; position: absolute;  top: 60%;">Test Yaparak Durumuzu Görün</p>
+        </div>
+    </a>
+      </div>
+
+      <div id="duyuru">
+        <div id="duyuruu" style="color: black; font-weight: bold;">Duyurular</div>
+      </div>
+      
+      
+                                <!-- duyurular kısmı div ile-->
+      <div class="container" style=" position: absolute;
+      left: 27%;
+      top: 137%;">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>COVID-19 Türkiye Platformu Türkiye'nin Tanı Gücü Sanal Konferansı</h2>
+            <img src="https://covid19.tubitak.gov.tr/sites/default/files/styles/284x180/public/2020-05/sanal-konferans.jpeg?itok=KCZERcZm" 
+            alt="Smiley face" height="200" width="300">
+            
+            <p><a class="btn btn-secondary" href="https://covid19.tubitak.gov.tr/duyurular/covid-19-turkiye-platformu-turkiyenin-tani-gucu-sanal-konferansi" role="button">View details »</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>İslam Kalkınma Bankası Bünyesinde COVID-19 Salgını Konulu Yenilikçi Proje Çağrısı Açıldı</h2>
+            <img src="https://covid19.tubitak.gov.tr/sites/default/files/styles/284x180/public/2020-05/islamic-development-bank.jpg?itok=G2HHTSF_" 
+            alt="Smiley face" height="200" width="300">
+           
+            <p><a class="btn btn-secondary" href="https://covid19.tubitak.gov.tr/duyurular/islam-kalkinma-bankasi-bunyesinde-covid-19-salgini-konulu-yenilikci-proje-cagrisi-acildi" role="button">View details »</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Stajyer Araştırmacı Burs Programı (STAR) Yoğun İlgi Gördü</h2>
+            <img src="https://covid19.tubitak.gov.tr/sites/default/files/styles/284x180/public/2020-04/picture-canvas.jpg?itok=5R0Nzdeb" 
+            alt="Smiley face" height="200" width="300">
+            
+            <p><a class="btn btn-secondary" href="https://www.tubitak.gov.tr/tr/duyuru/stajyer-arastirmaci-burs-programi-star-yogun-ilgi-gordu" role="button">View details »</a></p>
+          </div>
+        </div>
+        <hr>
+      </div> <!-- /container -->
+
+      <div id="videobaslik">
+        <div id="videobaslikk" style="color: black; font-weight: bold;">Koronavirüs Riskine Karşı <b>14 Kural</b></div>
+      </div>
+
+      <iframe width="1000" height="600" src="https://www.youtube.com/embed/JES6Gyc-xrE" 
+      frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+      style="position: absolute;
+      left: 30%;
+      top: 203%;"  allowfullscreen></iframe>
+
+<div id="genelbakis">
+  <div id="genelbakiss" style="color: black; font-weight: bold;">Vakalara Genel Bakış</div>
+</div>
+
+<div id="turkiye">
+  <div id="turkiyee" style="color: black; ">Türkiye <img style="position: absolute;
+    left: 95%;
+    top: 23%;" src="data:image/png;base64,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" 
+    alt="Smiley face" height="40" width="60">
+  <p style="font-size: 25px; position: absolute; left: -135%; top: 90%;">Onaylanmış Vakalar</p>
+  </div>
+</div>
+
+<div id="vakasayi">
+  <div id="vakasayii" style="color: black;">139.771</div>
+</div>
+
+<div id="iyiles">
+  <div id="iyiless" style="color: black;">İyileşen</div>
+</div>
+
+<div id="iyilesensayi">
+  <div id="iyilesensayii" style="color: black;">95.780</div>
+</div>
+
+<div id="olum">
+  <div id="olumm" style="color: black;">Ölüm</div>
+</div>
+
+<div id="olumsayi">
+  <div id="olumsayii" style="color: black;">3.841</div>
+</div>
+
+<div id="dunya">
+  <div id="dunyaa" style="color: black; ">Tüm Dünya'da <img style="position: absolute;
+    left: 100%;
+    top: 12%;" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIREhUQEhIWFRUVFxoWFRUYFxcZGBgdFRYYFhUYGBcYHSggGBslGxUWITEhJSkrLi4uGB8zODMsNygtLisBCgoKDg0OGxAQGy0mICYwLS0vLS8tLS0tLy0tLS0vLy4rLi0vLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS8rLS8tLf/AABEIAOEA4QMBEQACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAAAQMFBgIEBwj/xABCEAABAwIEAwUFBQYFAwUAAAABAAIRAyEEBRIxQVFhBhMicYEHMpGhsRRCUsHRI3KCkvDxM0OisuEIFmIVJGNzwv/EABsBAAEFAQEAAAAAAAAAAAAAAAABAgMEBQYH/8QAOBEAAQQABAQDBwQDAAEFAQAAAQACAxEEITFBBRJRYRNxgSKRobHB0fAGFDLhI0LxUiQzNIKSFf/aAAwDAQACEQMRAD8A7ihCEIQhCEIQhCEIQhCEISExcoQqb2g9qOV4OWuxArPH3KA7w23GoHQD0LgpWQvdoElqiY723YisSMFgmtAMd5WeXfFjdIB/iKWVsUIuV1KGXEMj/kVE47t5mtYR9p7ufwNaAP3SAHfErL/eNDrskdKA9938Phos0493Nd5dMh91CuxeJeIq4vFVDxLq9X6arJknEZCbaAB5A/NRPx8pNg0tZ+Fa67gXfvEu/wBxKhOOnP8At8lE7EynVydpDTdvh8rfRQmR51JUXO7qtyjm+JZ7mIqt/dqPH0Kd4rqyJ96eJnjRx96lsH25zGlEYlzhyeGvnzLgT805uKkG6lbjJm7qx5d7Wa7bV6FOoObCWH56gT8FO3HH/YKyziTv9grdlHtHwFeA6oaLuVUaR/OJb8SFbbiY3bq7HjIn715q206gcA5pBBuCDIPkQp1au1khCEIQhCEIQhCEIQhCEIQhCEIQhCEIQhCEIQhCxe4AEkgACSTYADckoQuYdsvbPhMNNLBgYqqLawYotP74vU/ht/5KzHhnO1ySEri/aftvj8wJ+0V3aD/ks8FIcR4B70c3SequxwNbomEqEw2GDiA57WiJkm3lbj0RLIWNtrST0H97d1DJIWjIEqYp5xTpt0tBdHIBjf1WRJwuad/O88vrzH6Kg7BySO5nGviVqY3OajrNIaObZn4n9ArmG4VDGLcLPelPDg425uz81H9++/idfe5v5rR8FmWQy7K1yM6BO4XFlkbwDMaiPTkmS4dsl38gUySIP/4m3VvFraNN5HG4433un+FbOR2e35SeGezyuzUzlGZ1Hv0uc0ztIg+QgfVYmP4bBHFzsacumfvs/JZ+Kw0bGczQfzzU6P6/uuec0Df88lmIITQi0hCcL2SgqQyfPMThDOHrOZxLQZYfNh8J84Ukcz2HIqaOd8Z9krpPZv2p03xTxjO7dt3rASw/vN3b8x5K/HjAcn5LThx7XZPyXRMPXZUaHscHNcJa5pBBHMEWKuA3mFoAgiwnEqVCEIQhCEIQhCEIQhCEIQhCEIQhCEKA7X9r8LllLvcQ/wARnu6Tb1KhH4W8ubjAFr3CeyNzzQRa859ufaLjM0JY491h5tQYfDYyC91jUO29rWAWjFh2s80wlQuAyjvNJ1eEiTG8ztB24XVPF8R8AOFe1dDpprf01WfNi/DsVn8FONy2no7vTbjz+PosI8Qn8TxLz+HuWacTJz895oxgpU263gQLNEbW2aOGydhXYmd/JEe5P1cd/L4Ii8WR3K0+f9qnFdoAt8IS0hCWkIS0hCKQtjCYgM1S3VqGneN9/NQTQmSqNUbUUsZfWdVmkw2LfT9xxHTh8DZJNhYphUjQfzrqlkhZJ/IWpPDZ1VENeAZMyYaYPnb1WXLwjDm3x5VtqLHx+KpyYKM25h+v9qdFQwCGyOJBb+t1zzoRzEOdR2FH7ZLM5czZ+acF1Xc0tNFN0WMJTsltTHZztNicC7VRf4SZdSddjvMcD1EG3opopnRnI5KxBiHxHLTouz9k+2GHx7YYdFUCXUXG45lp++3qOkgStSKdsgy1W1BiWSjLXorEplYQhCEIQhCEIQhCEIQhCEIQhCovtK9otLK2d2yKmKePBT4MB2fUi4HJu56biaKEyHskJpea85zavi6rsRiKjqlR27j8gALNaOAFgtNjA0UEwlaSlASK2ZFhnBmt5kv8V94iBJ32+q5Ti2Ia6Tw2aDLt7tPPdYeNlBfyt0GSlIWRmVSVSz3EufVLSIDLAfn6rtuFYWOKAObmXZk/nRbuCjayMEbrRZQcTAaSSJAAMxzWi57Gi3EAKyXtAslYkRZPAtLdpE6kqEUkQikIRSVZONgOXkm8uaQDNPU8UNOh7Q5o24ObO+k/kZCqyQe3zsdR33B8x9QQVE6I83M00fgfP+k7SdTYA8PLrz3RBAMcyDBE/GOCieyWS2FtZfyB+W4Py7prg955SK7g/JWzC1RUY14+8P7rjMVCYJXRnZYUjOR5b0WZaoebKk21iQi0oKWhWfTc2pTcWuaZa5pgg8wU9jqNqRri02F2PsD29bi4w+JIbX2a7ZtXyH3X9OPDkNWDEB/su1W1hcWJPZdr81e1aV5CEIQhCEIQhCEIQhCEKi+1H2gMyul3dOH4qoP2bNwwbd48cpmBxI6GJoYjIeyQml5kxuMqVqjq1V5fUeS5znGSSeJWo1oaKCYmVIAkU5keUknvHiw2B4nqFjcT4i2NvhxnM/ALNxmLAHIw5qzALlSVjkpunXBeWXlokmDF/P8ALqrL8M9sIk2Jrv8AnZOcwhgd1WphcI7v31p8Js2wJ8PhN/u3EjmFoYjExtwTcPXtCr1Guem/fo5WJJm+AI9x9c/X7qOxmIIqv71oJMBpBbLQDLZB92ZF5G8hbGFw4OHYIXZDM5GjetHetsjdUdSrUUdxN8M6a659a6/HumPsbjLanikgBzZdGnSXkAC9iBPGOV1b/cNoOjy3o0Lu+Xyz2288lL4zRRZl2OWt1+fXJStTLsNT/wAQNAPugl2q2+28n8lisxuPxA/wEkjUgDlz89K+aotxGIk/gSeulJjEdmg52ph0N4tJk+h/upov1A2NnLL7ThuBQ92X0UrOJcradmeqxxXZkCNDzH3i7gIkkAJ+G/UIfYe3PYDc3VZ5JY+J3fMPKlW101LXUji6tF7BEh7WhsGBPWwvx3j8jnQxYiOU81FpN75dsz8rrpnYqRMmY83oTf5Z+6joV4tBVtO0cK98aWkyYFrfHZQyyxRAl7gKzTHysZ/Iq05bSfShlSIdN9c+K5O43N9jFue/IY+SHFW+DUV/rWWnuHcXn00xZ3Mlt0e3asv69/ppIkLGVS1gQnWEtrEhKE4FYgkGQYIuCNxGxCUGk8Gl2P2c9tvtQGFxDv27R4HH/NAH+8DfmL81rYbEc45XarbwmK8Qcrtfmr6ravIQhCEIQhCEIQhQHbftRSyzCvxNS7vdpU5g1Hn3W9BxJ4AHfZPjYXuoIK8oZ1mtXF16mJru1VKh1OPyAA4NAAAHAALWYwNFBRkrSUoCRTOR5YXnW8Qz5noOQ6rK4lj2wt5GH2/l59+g9Ss/GYkMHK05/JWljYsuSc4k2SsUlI+rpIEOM8QCQI5kbKWKHnaXAjLYkAnyG/fNKG8wJsZd/knQJUdBoBOv57io9FG1zUo+BgGgts9zoDTLrDjxaAPRbcDYMb/lk/mHfxAsuGWZ+PMfM9lcZ4c3tO1vQDUZf3ZTOGw7vDQOh2kF1SQ6AXXAcJl7pk3gfJXJ5WU7EjmFkBlFtmsvZyIa3qRZ12sKSSRucuYvIabdOg96bzQvoMBsS2Ax+oh7dXiIcBZ48J59ZUuBEWNedQHXzNq2urKwdWnMdD0pOw/JO4jrqKyNZZbjX7LUyLNW03E1Jl5A1WgDryAngrfGOGPxEIEdU0E1nZP3Pe1PjMI6Ro5NverhpXn9rAtGlKDRtFqg5xgjSqFsQJ8N5t8B/XNelYHFHFQNeDnvlWfvPzXUYWYSxh260lfrZWEQkrKkquPZwA0G8wTwje/K9iFwvHbbizehA/O351XP4/KYp/EYSlVdeC5hGxu07i2wnqOCqRYnE4dmlNd1Gu2uRy81EyWSJuWh+KfvMRw3kf3VZzWlvPdZ6Uf+KPa0hTeXl1SrDSgkHNLaYxNORAdpM+E9d4jiLbKfDvDXe02xuO3XsehUsbqOYsLOhVewte06XtIcHNOzhcEHoUywHW30Sh1G2rvXYPtQMfQl0CtThtVvPk8DkY9CCOU7EEwkbe638NOJmXvurMp1ZQhCEIQhCxe4AEkgACSTYADckoQvK3tR7YnNMYXtJ+z0pZQFxa2qoQeLyAfINHBamHi5G90wlU9WgE1b+V5e6q6dMtBE8JvtP15D0mpjMWyBtE5kH07/AG6ntZFXE4hsYq81cqbYELiXv5nErn3G06Ao8ymIaDeYI4W+t7qT2cqsHfP5ZCvX3oJGycA/um+yNRn0/PzsmkpHVGtvbl1FtgBfhsFK3DzyktF9exz66b6nyQGudkoHE4xjHTQIdWqOiYgNAdtBtfjJnjZdVBgpZY+TFjliYNNSTWtjMcuwArYWtOOF7m1Nkxo9+X029y2s3aKuEbUcQCAHTfeLgbbm3H81S4YHYbij4GA1dbabE66A9QfkocKTFiixoy09FU8JTLntABMuFgJO94H/ACusnJLHOugBvkPqtyVwawk9F0ik7UA6IkTB4dF5ZNH4UjmXdGr691yLhykhZQoxqm2qZ2mpeJlSXHUCPEINjM9R4vTovSeCkBjoqA5SNDYzHwOXrqCdV0XD3eyWZZdPzsoWFtUtBImkJVNdlcVpqmmdnj4FoJB+E/Jc7+ocF4sHijVvyOVfJZ3EouaPnGo+qms0qdw4VtBLXAtqEemgn5j18lz/AA1hxkRw5fTmkOZfrY8tD8a1Wfh2+M3w7zGY+qxwlZlSpNPSQ1gkgQ6XGwE8AASR1Cdi4p4cORLYs6XYobmtyTQPQdEsrHsjp9iz6ZfmS3yFiqqsHBKCnArTx9DWwtHvCHNPUXb+ivYSbwZQ8/xOR8jr91Yhk5HAnTQ+W6jqWc+IMqMNO15nfhwsFoS8J/xl8LubpVafn/Fbdg/Z5ozzKz9mc8fgsQzE07gWe0Gz2OjU36EdQCsyJ7on/NQwSmJ9+9eh8Di2VqbK1M6mPaHNPQiR5HotoEEWF0TXBwBCfSpUIQhCFy728dqvs2EGCpuirigQ+N20hZ/8x8PlrVnDR8zr6JCV50WmFGpfJcp73xv9z5u/46rM4jxEYccjP5/L+1RxeL8P2W6/JWqmwAAAQBsAuTe9z3FzjZKxHOJNlOgKPVMWYCS00lZMZcnn+XD6/FOdJbQOn1+qaXZKp53m1Q1HMa+GNMDSd44k7/l9V3fCOFQRwskcy3kXntfQaD59ei3cHhIxGHOGZ6rWyvMHUnF4u4xuBcAy4aifDI6FaGOwDMVGI3adicjsaGteimxOHbK0NOn5WW63sqwdM1e5qUnd5OoSbWbq0OEbdQqfEcVM3DfuYJByVWlnM1zA3qOh+arYmaQReJG4cunxqxmpnOsTTptNGoz9m6n4NMTIIEAbCJBXPcIwc2IcMRG4mQP9q9OUi7O5vT8tZ2Ejke4SMPtA5307+eiq2UUA+sxtwCeBg2BO/ou2xz/Bwr3gDIdMvdn9Vt4p5ZC5y6FRohrQ0bNAA9BC8mnmdNK6R2pJK5Rzy5xcd1HZ5mow7PDDnkwGk7cZI5fqtfg3Bn419vBDKu+u1A9ft3CuYPCGd2eTeqqDqtXGVbkaiLAmBa+lq7WN2H4bBTGkNGu58yt4MjwkWQy/MytnMsgfQpio57TeC3z2g8VHw/jsWNnMLGnSwfv07fRQ4fHtmk5Gg+f5oochbLmA5q/a28pqtZWY92wN/p8FQ4lBJLhnsj1I/PXp33GqgxTHPic1uqu9fEsaGkkQ+zb2MiRB2XnOHwcsj3BoPs65ZjbTXzGoXOMie4kAaaqu5pS+zVxVLdTHu1aRYAgb9HAmR58F02Bndj8GYWmntFWcz/YNUVrYZ37iHwwaIFfnZWFrg4Bw2Ikeq5J7Cx5Y7UGvcskgg0UjgkCULTr4prHBriGgtJk7WMET6hX48G6WIvjzIIFdiPpnf9KwyJz223PNNa6VdrgCHDY9J/rdKW4jBuBcC3cdCn1JC4E5LDA4XumBkzBN/MoxmIGIl5wK0TppfEfzVS6n7Hu0UOdl9Q2INShPT/FYPiHgfvq5gn80ZHT5FavD5eZhZ0XVlbWghCEhMXKELyP7Qe0RzDH1sTMs1aKPSmyzLHabuI5uK1oI+RtKMlQWEoGo9rBu4x5cz8E+aUQxmR2yjlkEbC47K80KQa0NGwAA9FwsshkeXnUm1zT3FxJO6eaFEVGVmElWMk0rHF0nObpaYJIE8r3I6gTHWFYwcrI3l7xYAOXXoPU1fa06JzWut35+HXstlrVULrUJKp/ajCaKxcB4XgEWtMQR52n1Xof6exQnwgaTbm2D17fDL0W/w6Xnh5Scwney2XipULnSO70kDqZifhsmfqLHvw2HDI69uxfQdvfrso+JYgsjDW/7WpTtbDW03gkVA46SOEwT9BCyv0qDI+VlAxkC732+Od+ip8M9pzmn+JGareZVaheW1JBbPh4AuOp0RzJJXZ4KGBsYdDoaz6gChnvkAtfDsjDLZod/LIfBN4LEd3UY/gHCfLj8pScRj8TDPZ1FDzTpo/EjLey6FmGNFKi6t7wABFxeYDb8rheUYHCGfFNgdlnnlpWq5WCEyyiPRc0fUkzxPEr1h+IrJgXYBoASMeQQ4GCLhU3Dmu90pAIop7FY6rVjvHl0bSosNBHhr8FobetBRxwRx3yCkw0q7DIboqQhbr8uqCmK0eE3nlcAT56hCaMbAZvA5va2HXInLyrNVxiGGQx3n+fLdGHx726AfExhkMO15n5E/FMmwUb+dzcnOFcw17e5D8Ox3MRkTurHhMC2r3bwf2VMk0xck+KYM3ERESdlyWNxxwniRuH+V4HMcgBlVitb10B+mTLO6LmaR7Ttfdt5+imHBcvazwmyEoTwqv2lqVGOLZllQAgHhpN4Pn9V2HBWwyRB4FObYPe+vp8Qtnh7WOaHVmPqt7Jsu7ppJMl4BPS23zKyuK44TyBrRk0n1/KVbF4jxXUBkLW8QsuyTmqwK1qOauoYmjUovirRqB4aZAdDZLSeAc0lvqVr4KN0UbpXD2SNfVaOELorkIy/ten8txrK9KnXpmWVWNe09HgOEjgb7K4RS21spEKme17PPseV13NMPrDuGedWQ6OoYHn0UsLeZ4CQrystcKNTXZenNRzosG/MkR8gVk8cfUAb1PyB/pZ/EXVGB3VoauVIIzCxSnWhRphWbUGqCaVmRxmB6QljzsAWfIlN7JymZ/oX+CZKwsNH3Z5e/wDvzTXClEZxSNavSoXLPffa0XFyDawIHmuk4PIzB4GbF/7/AMW/DQb5mz5dlewrxFC+XfQfD/qmMHg2UhDGxeTuSTzJNysHFY+fFuuU3sNgPoqEsz5Dbitg0wYkAxcSBbhI5cVWZJIwHlcQDkcyLrbLVRBxGhVD7TCMTU33G/7o+S9Y4A4HhsRJGmx7n49R1XTcPN4dv5uoYmU+SRzzmtACk4MQ/Qaeo6SQS2bEiwKg8FheJKHMMr3pN8NnNz1n1TSkT0IQhIhCRKrNlOqjhTVeNdNzgO6LT+IDVJ/ttdYmKfFisa2Bh5JGg+2COn8fr1GeVFYuJ5ZcTyMNOA/lfbT89yM27O6WmrSJ0huosNzvsCNxB+W5lLw39QeJL+2xA9q6DhkDXUHMEkdN9AlwvEeZwjk1ur+6seFpxTYI0w0Wta2xi0rjcdJz4l7rvM59fK9uiyJXW8m7zWRCrJAsHBOCcFG5zhmVKcPtB8N4lxsBfnK1OFTyxTf4xdjPehufRW8LI9j7b6+SeqEMbJgADnaw5lVmtdNLQsknpn7kxoLnV1TGFxAqN1RB2cORG4UmKw5gkLNRqD1GxUkkZjdXu8k3XwjHODiPE0gg8bGU6LFSRtLAfZN5eaeyVzQWg5Fdn9jWa95hamGJ8WHfLRMnRWl7Z/jFUDo0LTwz+eIHpl7v6pbmCk54h2y/PRdAUytLhP8A1H5rNXC4MGzWOrPHAl50U/UaKn8yu4RupTXLjQWgExWns4wNZEXIDyfMkNHwbPquZ40S54cTkMgPKiT7zXosTHkuffp9/n8FNtWEVnlONCaUwpxoTSUwrWzRlIsiqJBMNgS6SI8IHHc+i0eFPxLZv/TmtzZoUOp6bKbDOkD/APGftXdJkFAU6Zp69Wlx+6WkSAYIPFTcdkdNK2YtoEdQQaJ0IS455keH1VjrfuKlQFit6V/zf/qorIT5lODGOJOYb11+2prLa9aFpMvROBm3Tz/ophlcA5p1PYfg20pMLlAdtcC00e+sHNIvAlwJiJ9Z9F0X6bx0ol/bZlps66VuPltrdrU4RO4TeHsb9FRV3C6ZCVCEIQkQkSIQkQpGlm720HYcCzjJJvYxLQDte/qs+Th8b8UMSdQMh36nrlkqrsIx04mO3z6qXwFeri4py4UmgCqQ5oJcQb3+7aNI5Ss2bwOGl01AyG+TI5AbZb5klx61oqE7I8Jb8uY/xyNV997VpIXE3ZtYgWpj67GN8b9Ad4QepHA8PNXcFhpppLiZzcuZHYfO+mpU8Mb3u9gXWaiauFxjRFOs143kgA34CZEXkXWy3E8KkP8AmiLCMqF18Kz2OSvNlwjj7bCPz0TJxLMQ3uKhIqCJ0xBI5Hb0Uv7SXASnEQgGM9bsA9d/nlqpPCfh3eKwW3v9VB4rHViw0nEloOm4E22BPOy2o8Hh2y+Mwe0ReR679N1pRwRB4e3U5qR7MvedZMlpvJ/Fx+R+ix+OtjAYB/Ibdv8AoyVTiAYOUDX6KacFzwWeFbPZPmPdZiymT4cRTfTjm5gFVh9Gsqj+JanDzk5vkfp9lq8Nfm5q7mry1l5Z9suONbN8TeRT0Um9NDG6h/OX/FaeFFMTHKlAK2E0q75eBDoEDURH7kM//K4rHk8zQTeQPvs/Vc5OTYvp88/qt5qzyqxTjU0phTjU0phTbsMO8FZxJ0NIaImJ94iLkkQPTqrUeJd4H7ZgrmNk3r0HQAHNPEh5PDG5z+gWrhGMD3YjW9+omQASADAEtAm2nePpK2cScQ6AYMRtbQFWQCSLJ5TdZ3oTfqaU8rnlghoCvnnofVTNO9+fouae3lJaTp6+5ZzsskrqGrcmNoBIHyuVLFizFXKBd3zEBx9LsCtqAPdAfy6ff5qjVMe+m9zaINIagWjUbSIuSYINjfZetM4fFPC04qpDVElozPUDUEaZa751XSNw7HsDpfayzy/DY0y1UxmOUasK5wrNe6TVqP31Ws0ETAEW4T8uPj4ly8T8MwuY3+DG1Vd6NajXetO9DD4usSAWED+IHTvt91S11i6JCEiEqEJEqEiEiahCRCyp7zyU0DOZ2YSO0XQMiq1HUWmqHBwkS7dw4G++8T0XnPHoYIsYRARykA0KoHcZada7rlca1jZj4dV22VZzzMqnfaTpik86QLjce9zMCPiuu4Tw7DswgcwH/I0WTkdNumuVdls4PDR+DYv2hn/S0sXQayoG06ktcGkOmI1fijaFchmfJCXTMpwsEa3X/j1vZWY5C+MmRuYvLy6LDNo70w8Ps3xjiQ0An4gqPBX4AtnLr7PTM18EuGvwxYrXL1S4LL6tceH3WmLmwm5t8NlBjMdh8IbfqegzNfm5RNiI4T7WpVnwOCbRZoBJvJPM2/Rcdi8a7EzeIRWwHZYs05lfzFR9SpUw7gCS+kT7xu5nnHD9FfayHHMJaOWQbbH8/wC2rbWxztyyd02Kmckx4p4nCYhrrMxFIkj8Jfoqf6XOUOCY6KcseKNH6J2DuOenZL02r63F457W1+8x2LqfixFZ3xquK2IR7AUZUfhXhr2uOwcCfQp8rS6NzRuCo5QSwgdFcMl/wWHiZJ9XEyuP4r/8p46V8gsDF/8AvO/NlItWaVUKcamlNKcamFMKdamlMKzBQGOcLATFEY7tHSDHd08F8eGQ6N45eZuunwP6XxLp2/uW+xvRF6eemxqz06i/Dw6UvHiDLfRQeG7Q1QSapc+B4QHaG6pF3aI1CAbLr5f09hi0Nga1mYs8ocao/wAea6PerWlJw+OgIwB1ys12u6PdM4/OX1gWlrGg76W3MHUJJk7ybRuVoYHhEWFIcHOcRpzHIZVkAANKGd0AKpSQ4NkRuyfM6bLToYqpTOqm4gifLYiY5wSp+IcPjxLLcLr4jWvh6qw+Jkgp4taSz1YSpULJrJCsxYZ0rC5uv21H29UhNJ1tMBasWDjjaLFnqoy4lI6mFFLg4nbV5JQ4plzYWRNA6N1HTqpAbWKgq8kqt3YzuyHNLG62nUHmCYNjHKPzXOfquPEQsYWvPIbaWjIXrn1vvpSweLeICCHHlOVbfn2VmcuHWOFzl2FqOqGiG6nhzpI3PAyTwt8yvXHYiGOETuPKwga7dPXPvpkutErGsEhNCgrDgezrGsIqXc4dPBbhzN9+i47GfqKR048DJrT/APrz6D8PRZU3EXOeCzQfHzUDQyWu8E6C2PxeGeglb8/F8HEQC8G+mfvpab8bCyvavyzU9kWCqUWuD4gkEAXIMQZ+AXL8ZxkGJe0xXlYJ+VfFZmNnjlcCxSDlkBVQmarAQQbgiCPPdSseWkObqCpGmjYULTwL6WpguxxaQZEgzeR/XBbb8ZHOBJo8B2Xp1/N1omdslP0cLXoj/vIdFa5AtpeWcVV1vc/8Ti74mVqtFClGm1KEivOV0iykxp3Av63/ADXDcQkEmJe5ul/LJc3iHh8riFp51m5olrWaS7d03jaB6ytHhPCm4lrnzA1tt5n0U+EwglBc+62TmUZ417T3kNc3c8COcdOKOIcDfHIP2+YN5dD0vvt8UzFYFzHDkzB/P+KcpPDgC0gg7EbLn5I3RuLHiiNlnOaWmindQAkkAczZNbG57uVgJPbNR0TkFV+0+aBx7um6REPIuDeQJ9P6uu+/TfDXRReJM2jdi9RlV15HseoyBW1w7Clo53jPb8/Pkq8F17VqpQpWpFkFO1IsgpmpE06keCzJeHyC3Mz7J4cECiUN4bMXVlXX8zRzhPhsLdbEGNDRsKUdpCmOCEhULkqxKgclTZYqEmFaXc2ieHKU7PY9tCtqd7pBa43tMGbdQFlce4e7HYQxs/kCCPMWM/QlUsdAZouVuozVlGcmqycPTc52rT4rBtpBcQdvX8p4k8BZhZax0oa2ry1d1AsXl5fWsj9kIn1M4AVeW/YJcky7uWS69R93nf0nj+qr8a4mMZMGx/8Attybtfevl0CTF4jxn03+I0W65Y4VYJtycE8JtycE8JpycE8JtyeE4JopyeE7/wCsO6/Jb/ila37kqiV6elzmndpI+BhbrTYtaCwUgSK85ZXFSmx3MCfMWPzC4bHwmLEOaet+hzC5rEM5JC1U/G1C6o9x3Lj9V3mGYGRNa3QALfiaGxgDomlbCkVh7I4l+s0p8EF0WsfCJnf06rnP1LhojB45/nYF55jPLp3tZPFImcnib6fNReZYp1So4ucSA4xyAngOC6LAYaLDwtbG0DIX38+qu4eJscYDRWS1VdscwCnWQVlqalClakWQU7UiyCmakSPcRsmYiWSNocwX1SgArNquQl3IObXdNKVSEpFiVC4pUhULkqxKgclSFQuSrEqFyVXns1gjSognd/jjkCLD4fVeXfqXHjE4ssboy2+ZvP45fFc3xCYSzUNBkpIrnwqYTTk8J4Tbk4J4Tbk4J4TTk4J4Tbk8JwTRTk8LD/01/L6rf8Jav7YqudqKHd43FU/wYiq3+Wo4fktqI2wLRKjFOEisHZfGXNE8fE38x+foVg8dwttE7dsj5bH6eoWVxGHISDyK1cXlFXvdIaSHOOl3CCZkxstLDcUgdh/ELs2jMb/32U8WLj8KycwNExmGXPoEB8GdiNjG6u4HHxYtpdHtqDqpIMQyYEt2Wxk+L+zVHF4I8BGkyL2In4fNM4jhBjoAxhGoN65aGvQ/RRYqH9xGA07rQLSLn4cdgZ8rrYa4E5K0DawLUjoQTY1S2stSl8YtdTxkilmCrjHh2hTSlCnaUiyCmaUiUKUFIllSByREo5kITCUqxKhcUqQqJxSrEqFxQgNJ2HT47KFxAS2Aui4Fjm0mNf7wY0HzAXjfEZI5MXI+L+JcSPfr67Lkpi10ji3SynHKoEwJtycE8JtycE8JpycE8JtyeE8JpycE8Jmq6ATy/RSNFmk9os0uyf8AZR/Cul5guooLintdwPc5vimxAe4VR17xjXuP8xd8FewxtgTXKnq0E1ZNMXCkGaQi1dMlxmuiHEyW2duT4fmSRB9VxPE8J4WKLGjJ2Y21+Azy8lzuLh5JS0b6eqq+Y401ahf6N6Abfqu0wOFbhoBEPXuTr+dFtYeERRhvvWzg8cHjuawlriIfxYYADpPDmPNMnwro3ePAac3VuzhrXn/4nbRQywFh8SPUbbEdPstXF0nseWPmRboQ0QCOYgWWhhpYpYxJHofrrfe9e6niex7Q5un3TIVwFSJVKKIopENbCSGERmwgm1mFcBTUqlBSJVIHISyncyREo5kJJTS5KkUZKEijJSoa6CDE9DsoX5ikEWKVh7IUdb3VDEMFhHF9iRys35rjf1ZijDh2wtu36ns3b4/dZXFH8rAwb/IbfFWpy89WIE24pwTgmynBPCbcnhPCacnBOCZD5E39RG1uKlezkNWPTNSEUaWLkgTgnsnw/fYmjQie8qMafJz2tJ+BPwKuYeMlzXdx9/p8VawzOaRvmvTC110S4F/1G5XpxOGxQFqlM0jymk7UJPMir/pV7Bu1Ca5chCvhMShSBIt3KswdRdIuDZwOx/sq2NwTMXHyu1Gh6KvicO2ZtHVT3aPB0zTNYABwIuPvSQL8+fosPgeLnbP+3dZbn/8AWvyqWZgJniTwzp8lWaWmRqmOMRPpK7Bxdynkq++i2HXXs6qVY9+Jc1hc06TpDyAHaTI90kAgbxuFQ5Y8Cx0jWkc2ZaCSObzo0TpeQKolrcO0uAOedbX57fIrXzLLalAgPAg7OGxhXOH8SgxrS6I6ag6j87KaDEsnFtWmtMFTrJSgpEoUgKEqkBSJZTw5CJTuZIiUcyESkLkqRMJQkKjJSpFEShXrs3hwzDt5v8RPnt8oXln6kxLpse5uzaaPr8fhS5rHyF857ZKRJWEqgTbinBOCbcU4J4TbinBPCbcnBOCbcnhPCacU4BPCtvsoy7vcwbUi1Fjnnl+Bo+NSf4Vfwdl1bDP35LQwDbk8s/ou5rTW2qH7a8l+1ZXVc0S/DkV2+TJFT00Ocf4QpoHcrwkK8vrWCjSqQISqQJFM4qv3mFbpkd04Bw82wHfUeqy8PF4OPcXf7iwfI5j5H0WfGzw8Sb/2GXv0UQtwFX1kpAUi2TjqhGlzi5pIJDjO3Im48wmMwsLXB7GgECrArL6+RUPgMBtoo9k3Vc0klo0jlMx6wrMfMG042etUntBA9o2sVOClSqQFIhPBQllODkiVO5kIRzISSkLkITCUqRMJQkUZKVW3sdWmk9ke66Z56ht/p+a4D9Ww1iI5L1Fe4/38FhcVZUgd1HyU6XLlS0tNFZtJslKE4JtxSpwTbinit08JtxTk4JtxTgLTwE2U89E9dd9jGV6MNUxLt6z4b+7TJH+5zx/CtbCtpvN1+mS3MBHTObr9F0RWleWFakHtLHAFrgQQdiCIIPohC8f9sMidgMZWwjpim86CfvMd4qbvMtInrK14X8zQVGQodThIsntgweCe11i00GxafwWKNN0i42c3g4cQRxTZ4GzM5TrsdweoUcsQkbR9D0Uph8K3FyWhtNzXXAEDQRawsSCPms+bFu4dXPbmkdbPN5nYj3UqUkrsLXNbgR8fspXEZHQDSQ0yYaJLiJcQATF+KysLxzFySBriKzJoAGgLoXl9e6pR46YuonvtsoLNcqfQInxNOzhztIPJdLw3ikWNB5ciNj8PNaWGxbJxlkei0FrAq0snvJMm5KeymigkDQBQSKQFCVPBQlTuZIiUvMhEo5kIScyEiaSlQEwuQkTCUqtPZLFN0Op2Dpne7ptt0sFxH6pw0rntlFltVpkPXv8ARYnE4nc4ft5aKfJXIrLCwcU5OATT54J7OW/a0TxW6r+aZ/pOilBI3cbjyH6rpMDwMObzz2L0G/r9vf0WrhuH8w5pPcmcHmz61Zo91t7C/wB0zPr8FJieGw4bCvOrup89vT3qSXCMihJ1P9qbcucGSzQs8HhXVajKLBLnuDGjq4wJUjQXOoKVjS5wA3XpHKcA3D0adBnu02BoPOBcnqTJ9VuNaGgALpWNDWho2W2nJyEIXIP+oHsr3tFmY02y+j4K0bmm4+F38LifR55K1hZKdyndNcFwJaYTEqeChKpAUitXZvBPp6nPEagAOdieC5XjmNimDY4zdH006rF4hOySmtOinmlc4swhZakNG91SbSj8RktBwIDA0k7ibeQmI6BbWG43jI3Bzn8zQND96v1KtMxszSCXWAqnmOFdSqOaWlok6eRE2g8V3OBxbMRC17XXkL86zvoVuQSiRgIN9fNayvAqZKnAoRKUuAFlIsS9QPxIH8c0tJNZUJxDyUtBLrT/AN0eiOVLrT/3DSaSUiU7nBNWikJCUIa4gyDB5hRuoiiggEUVZMr7RjTprTI+/Ez5gLkOI/p8uk58NQH/AI6e7z9FkYjhx5ri06KQxGcUQzVrDuTRufTh6rIh4Ri3ShhaW9zoPXf0VVmDmLuWq77Ku47PqtQFohjTy3jlP9l0uF4Lh4CHH2nDc6X5f9WtDgI4yCcyohahKvLYwOMNJ4eADaIPIqni8O3ERljifRRTQiVvKVbqNYPa14+8AfiuKmiMUjmHYrCewscWnZdI9j+Qa6rsc8eGnLKXV5Hid6NMfxdFcwUX+5Wlw+HPxD6Lri0VrIQhCEJrFYZlVjqVRocx7Sx7Ts5rhDgehBQDSF5M7fdlX5ZjH4Z0mmfHRefvsO38Qu09RyIWtDLzttRkKuKwCkWxgJ7xkROoRO0zaYUeJI8F93VHTXTZRTV4br6FXppXAOq8lzRCcBTUxZgpqQhZApE2lrZngW12aCYIu08j+iv8N4g/BS87RYORHb79FNh53QP5h6qt4js5WaCWlr44AmfgR+a7HD/qLCSEB1tvrp7wT8Vrx8SicaNj5KHcCJBsRuFu84qwr4zzCwJVV8heU6kijtKhLaEJEIQhIktCzBVlsgOSSkJSUiRMJSpEwlCRMJSoUZKENaSQBubBRucALKCQBZV/7N5PVxD6OFp3e6Gk8Gge849AJPouMlP7jEOLdysPlM0p5dyvR+T5azC0aeHpjw02wOZ4lx6kkk9StRjQ0ABb7GBjQ0bLcTk9CEIQhCEKpe0nsazNcKadhXpy6g88HcWk/hdAB8gbwpYpCx1pCLXlfGYR9Go6lVaWPY4te07ggwQVqtcCLCYmgVIkItW/Jcd3tO/vNs7ryPr+RXHcUwf7eb2f4nMfUfmywMXB4T8tDopIFZqqUswUUE2krXIc0XX/ABIQnA5RkEGimkLIOSUm0qx2sw7dQqAiYhzRvxIcfpddp+m8RIYjE4GtQdtsh5dtPctnhkjuUsIy2P0VdcuhkDa7rWCxUCVCEISIQhCEIShOjq0FKpSUiRNJSpEwlCEwlCRMJSqT7PUQ6rO5aJA4kkgC3r9Fk8Wlc2DlbuaVPGuIjobr0r7N+yf2Kl31Vv8A7iqPF/8AG3cM89iesDhKzcNB4bbOqlwmH8JtnUq5qyriEIQhCEIQhCEIXMfa97OBj2nGYVsYpjfE0W79rRYf/YBseIseEWIJiw0dEhC85vYWktIIIMEEQQRYgjgVpg2o1tZXjTReHcDZw6fqFXxmFbiYiw67eagxMAlZW+yubHggEGQbgriXNLSQdVzxBBopwFNTaWQKLNUkStACHPc7MpDmlaP6lDnlwo17khSlu/XfZObKW8vbTX7/AJui1H4zJaLxZgaYsW+H48Pkr8HGMUx9udY3vP3b/FWosbMw5mx3zUPU7L1LaajDznUPhAMrYb+oIP8AZrvgfqFfbxSPdp+Cj8flVWjdwlv4hcf8eq0cLxCDE5MOfQ6/nkrcOKjmyac+i0VdVhCRCRCEJEqUFPa7ZIhKShCYShImkpUiYShd69i3s8NJrcxxbIe6DQpuF2jcVHDmdwOFjvEZOKf4jx0Hz6/ZJ4fM4E7aefVdiUKmQhCEIQhCEIQhCEIQhC5f7VPZe3HB2LwgDcUBLmWDa8czs2pydsdjzFiGcsNHRIQvPGKw76T3U6jHMe06XNcCHNI3BBuCtNrgRYTFt5bmr6VveZ+Hl5clSxnD48SL0d1+/VVMRhWy56Hr91acJim1G6m3B+IPEEcCuVxGHdA7kfr+ZhYssRjPK7VbAKrKKlkHIpJSyDklJKS6klJKS6kUkpGpJSKSOqAAkmALkngnNYXHlAspQ0k0FSc6xTKtUvYLWE84tK7jh0EkGHayTX5dl0eEidHEGuWgrysoSIQhCVOGSEiQlCE0lCGtJMASTYAblMJQu6eyn2Ud2WY7MGeOzqWHcPd4h9Ufi4hnDjewz58RfstTwF2dVE5CEIQhCEIQhCEIQhCEIQhCEKm9vvZ5hc1bqd+yxDRDK7Rfo2oPvt+Y4EXmWOVzNEhFrzl2r7JYvLand4mnAPuVGyab/wB18b9DBHELSjma/RMIR2YrXezoHD0sfqPgsjjcdtZINsvqPkVmcRZk13orACudWVSyDklJKSgpKSUspSIpGpFJKSyikUqx2lxji/ug7wgAkdd7/JdTwbDRiIS17RvPstnh8LQzxKzUItpaKEIQkQhOCEItCE20KS7P5BicdVFDDUnVHnePdaPxPcbNHU/VRPkawWUoC9Dezr2W0Mu0160V8VHvx4KR4ikDx/8AM35BskHOlnL8tk8BdDUCVCEIQhCEIQhCEIQhCEIQhCEIQhCELWzDAUsRTdRrU21KbveY8BzTysePVKCRmELknaP2Md2/7RltSOeHqEkEcQyob+Qd/MpJXiaMxv8AwqCeESMLVSsxy+th3d3XpOpu5OET1B2cOokLnXxOYacFgyRPjNOC19SjpRUlDkEJKS6klJKWji84pUyWmSRuAPXjC0cPwyeVvO2gDpZ+ytRYOR45hotOt2jbB0MM8JiPO2/krsfAzzDndl2U7OHOv2jkq/UeXEuJkkyfM3K6BrA1oa3QLVa0NAAWCVKhCEIQlRaFsZdl9XEPFKhSfVedmMaXHzgcOqjc8N1S0us9j/YhVqRVzB/dN37imQah6OfdrPST1CpyYrZqcGrtWSZJh8FSFDDUW0mDg0XJiJc43c625JKqOcXGynKQTUIQhCEIQhCEIQhCEIQhCEIQhCEIQhCEIQhCEJjGYOnWaadWm2o07tc0OHwKQgEUUjmhwohUnOvZbhasmg92Hdw/zKfq1xB+Dgq7sJESqb8BE7TJUPOfZnmtEE0W0cRy0P0OPmypAHkHlObgYLzJr83/AKUX/wDObeuSpGcZXmtG1XCVqYG5bSeW/wA4kfAq7DgcI3v5p7MDG3UX5qqvcSSSTPGd1ptLQKCtAACgsU+0IRaEJOYJVK5f2axuIjucJXqA7FtJ5b/NEAeqjMrBqUUrflHsZzSteoynh286lQExxIbT1X6GFC7FMGiXlXQMg9hmDpQ7FVqmIP4W/sqfrpJefMOCruxTzpkl5V0rKMnw+EZ3eGo06TeIY0CeriLuPUquXE6py3kiEIQhCEIQhCEIQhCEIQhCEIQhCEIQhCEIQhCEIQhCEIQhCEIQhCFUO3Pu+iexIvPXbH3vVX4U0rT7L/4nw+qdLogL0F2A+6qD05X5RJUIQhCEIQhCEIQhCEIQhCEIQhCEIQhCF//Z"
+    alt="Smiley face" height="50" width="60">
+  <p style="font-size: 25px; position: absolute; left: -50%; top: 90%;">Onaylanmış Vakalar</p>
+  </div>
+</div>
+
+<div id="dunyavakasayi">
+  <div id="dunyavakasayii" style="color: black;">4.168.427</div>
+</div>
+
+<div id="dunyaiyiles">
+  <div id="dunyaiyiless" style="color: black;">İyileşen</div>
+</div>
+
+<div id="dunyaiyilesensayi">
+  <div id="dunyaiyilesensayii" style="color: black;">1.452.626</div>
+</div>
+
+<div id="dunyaolum">
+  <div id="dunyaolumm" style="color: black;">Ölüm</div>
+</div>
+
+<div id="dunyaolumsayi">
+  <div id="dunyaolumsayii" style="color: black;">285.445</div>
+</div>
+
+  </body>
+</html>
+
+<a href="duyurular.html
+"><p id="tummu">TÜMÜ</p></a>
